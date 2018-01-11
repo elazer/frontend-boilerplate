@@ -4,7 +4,7 @@ import { Button, Select } from 'antd';
 const Option = Select.Option;
 
 class AntSelect extends React.Component {
-  handleChange = value => {
+  handleChange = (value) => {
     // this is going to call setFieldValue and manually update values.topcis
     this.props.onChange(this.props.name, value);
   };
@@ -16,7 +16,7 @@ class AntSelect extends React.Component {
 
   render() {
     return (
-      <div style={{ margin: '1rem 0' }}>
+      <div>
         <Select
           onChange={this.handleChange}
           onBlur={this.handleBlur}

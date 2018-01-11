@@ -1,3 +1,21 @@
 .App {
   background: red;
 }
+
+.promoDesc {
+  padding-left: 20px;
+}
+
+.promoFooter {
+}
+
+.promoImg {
+}
+
+.promoItem {
+  margin-top: 15px;
+}
+
+.promoTitle {
+  padding: 15px 0;
+}
